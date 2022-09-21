@@ -1,13 +1,40 @@
 * {
+    padding: 0;
+    margin: 0;
+}
+
+body {
     background-color: #ffafcc;
 }
 
 h1 {
-    color: #fdc5f5;
+    color: #ce7ac0;
     text-align: center;
 }
 
 p {
-    color: #b388eb;
-    text-align: justify;
+    color: #916ac4;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #bde0fe;
+}
+
+li{
+    list-style:circle;
+}
+
+li>a {
+    color: #916ac4;
+}
+
+.new-edge{
+    margin: 2% 20%;
+}
+
+.ps-warning {
+    font-size: small;
+    color: grey;
 }
